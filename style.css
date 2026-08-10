@@ -15,3 +15,16 @@ body.dark-mode {
   /* Uma nova cor que combina melhor com fundo escuro (ex: Neon/Ciano) */
   --cor-destaque: #00f5d4; 
 }
+
+/* Estilo do botão Voltar ao Topo */
+.btn-voltar-topo {
+  position: fixed;
+  bottom: 20px;       /* Distância do fundo da tela */
+  right: 20px;        /* Distância do canto direito */
+  padding: 10px 15px;
+  background-color: var(--cor-destaque);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
