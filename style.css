@@ -30,3 +30,32 @@ body.dark-mode article:hover {
   /* Sombra azul/ciano brilhante para dar destaque no fundo escuro */
   box-shadow: 0 8px 16px rgba(0, 245, 212, 0.4); 
 }
+
+/* Melhorando a legibilidade e o espaçamento da página */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte limpa e fácil de ler */
+  line-height: 1.6; /* Aumenta o espaço entre as linhas */
+}
+
+article div {
+  padding: 12px; /* Espaço para o texto não colar nas bordas do card */
+}
+
+.container-reacoes {
+  display: flex;
+  gap: 10px; /* Espaço entre os botões */
+  margin-top: 15px;
+}
+
+.btn-reacao {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid var(--cor-destaque, #ccc);
+  background-color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-reacao:hover {
+  transform: scale(1.05);
+}
